@@ -1,0 +1,30 @@
+/* src/IntroducerReward.css */
+.introducer-reward-container {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .transfer-button {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .transfer-button:disabled {
+    background-color: #cfcfcf;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,38 @@
+/* src/Stakedcoins.css */
+
+.staked-coins-container {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .staked-coins-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .staked-coins-table th,
+  .staked-coins-table td {
+    border: 1px solid #444444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .staked-coins-table th {
+    background-color: #444444;
+  }
+  
+  .chart-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  

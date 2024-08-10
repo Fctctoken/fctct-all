@@ -1,0 +1,45 @@
+.layout {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+  width: calc(100% - 240px);
+  background-color: #f8f9fa;
+}
+
+.main-content .header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.main-content .header .user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content .header .user-info .user-id {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.main-content .header .user-info .wallet-balance {
+  font-size: 1.1rem;
+  color: #ffc107;
+}
+
+.main-content .dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dashboard .card {
+  flex: 1 1 200px;
+  text-align: center;
+}

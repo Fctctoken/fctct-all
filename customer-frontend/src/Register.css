@@ -1,0 +1,161 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #141E30, #243B55);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  }
+  
+  .register-container {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.3s ease;
+  }
+  
+  .register-container:hover {
+    transform: scale(1.03);
+  }
+  
+  .register-form h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #00e6e6;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    color: #aaa;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .form-group .required::after {
+    content: "*";
+    color: #e74c3c;
+    margin-left: 5px;
+  }
+  
+  .mobile-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .country-code-dropdown {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #110303;
+    outline: none;
+    flex: 1;
+    font-size: 13px;
+  }
+  
+  .country-code-dropdown:focus {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .mobile-input-group input {
+    border-radius: 0 5px 5px 0;
+    flex: 2;
+  }
+  
+  .verification-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .verification-btn {
+    margin-left: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #00e6e6, #006699);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .verification-btn:hover {
+    background: linear-gradient(135deg, #006699, #00e6e6);
+  }
+  
+  .timer {
+    margin-left: 10px;
+    color: #00e6e6;
+  }
+  
+  .register-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #00e6e6, #006699);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background: linear-gradient(135deg, #006699, #00e6e6);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .register-container {
+      width: 90%;
+      max-width: none;
+    }
+  
+    .register-form h2 {
+      font-size: 20px;
+    }
+  
+    .form-group input {
+      font-size: 14px;
+    }
+  
+    .verification-btn {
+      padding: 6px;
+      font-size: 12px;
+    }
+  
+    .register-btn {
+      font-size: 14px;
+    }
+  }
+  

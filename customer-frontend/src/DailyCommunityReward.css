@@ -1,0 +1,75 @@
+.daily-community-reward-container {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.reward-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.reward-table th, .reward-table td {
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  text-align: center;
+}
+
+.reward-table th {
+  background-color: #333333;
+}
+
+.reward-table td {
+  background-color: #444444;
+}
+
+.view-button {
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #ff8c00;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.transfer-button, .close-button {
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.transfer-button:hover, .close-button:hover {
+  background-color: #ff8c00;
+}

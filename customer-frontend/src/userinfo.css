@@ -1,0 +1,28 @@
+.user-info-container {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-info-container h2 {
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+.user-info-container p {
+  margin-bottom: 15px;
+}
+
+.user-info-container ul li {
+  padding: 10px;
+  border-radius: 4px;
+  background: #333;
+  margin-bottom: 10px;
+}
+
+.user-info-container footer {
+  margin-top: 20px;
+  color: #ccc;
+}

@@ -1,0 +1,35 @@
+/* src/DailyIntroducerReward.css */
+.daily-introducer-reward-container {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.reward-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.reward-table th,
+.reward-table td {
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  text-align: center;
+}
+
+.reward-table th {
+  background-color: #333333;
+}
+
+.reward-table td {
+  background-color: #000000;
+}

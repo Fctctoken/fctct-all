@@ -1,0 +1,29 @@
+/* src/LevelIncomePage.css */
+
+.level-income-container {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.level-details {
+  margin-top: 20px;
+}
+
+.transfer-button {
+  background-color: #FFFF00;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.transfer-button:hover {
+  background-color: #FFD700;
+}

@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url('image.jpeg'); 
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff; /* White background for better contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for better visibility */
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid #28a745; /* Adding a green border to match the theme of earnings */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #28a745; /* Green color for heading */
+}
+
+.earningsSummary {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.earningsSummary p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.earningsSummary .total {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745; /* Green color for total earnings */
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #ddd;
+}

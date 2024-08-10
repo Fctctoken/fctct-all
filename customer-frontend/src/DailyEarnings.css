@@ -1,0 +1,19 @@
+.earnings-table {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .earnings-table th, .earnings-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .earnings-table th {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .earnings-table td {
+    background-color: #e9f5ef;
+  }
+  

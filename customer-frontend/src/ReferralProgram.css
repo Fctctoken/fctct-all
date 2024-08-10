@@ -1,0 +1,71 @@
+.referral-program {
+    font-family: Arial, sans-serif;
+    background-color: #1a2a48;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin-bottom: 20px;
+  }
+  
+  .referral-link-section {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .referral-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .referral-link input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .referral-link button {
+    padding: 10px 20px;
+    background-color: #f33;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .user-data {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .user-data h2 {
+    margin-bottom: 20px;
+  }
+  
+  .user-data table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-data th, .user-data td {
+    padding: 10px;
+    border: 1px solid #555;
+  }
+  
+  .user-data th {
+    background-color: #444;
+  }
+  
+  .user-data tr:nth-child(even) {
+    background-color: #2a3a58;
+  }
+  

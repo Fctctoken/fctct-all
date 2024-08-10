@@ -1,0 +1,30 @@
+.staking-bonus-container {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.staking-plan {
+  margin-bottom: 20px;
+}
+
+.staking-plan p {
+  font-size: 1.1rem;
+}
+
+.withdraw-button {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.withdraw-button:hover {
+  background-color: #218838;
+}

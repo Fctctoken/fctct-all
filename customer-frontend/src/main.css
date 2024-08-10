@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000; /* Optional: to give a background color */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  align-items: center;
+}
+
+.withdrawal-container {
+  background: #000000; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  width: 500px; /* Set a fixed width for the card */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.logo {
+  max-width: 20px; /* Adjust the logo size as needed */
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.minimum-withdraw {
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.withdrawal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.withdrawal-form label {
+  margin-bottom: 15px;
+}
+
+.withdrawal-form input,
+.withdrawal-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.confirm-button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.confirm-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.minimum-withdraw {
+  color: red;
+}
+
+.title {
+  color: white;
+}
+
+.withdrawal-form {
+  color: white;
+}
