@@ -1,16 +1,21 @@
+require('dotenv').config(); // Load environment variables
+
 const express = require('express');
-const cors = require('cors');
-const dotenv = require('dotenv');
+const app = express();
+const db = require('./models');
 const authRoutes = require('./routes/authRoutes');
 
-dotenv.config();
-
-const app = express();
-app.use(cors());
+// Middleware
 app.use(express.json());
 
-app.use('/api/auth', authRoutes);
+// Routes
+app.use('/auth', authRoutes);
 
-app.listen(process.env.PORT || 5000, () => {
-  console.log(`Server running on port ${process.env.PORT || 5000}`);
+db.sequelize.sync({ force: false }).then(() => {
+  console.log('Database synced');
+  app.listen(process.env.PORT || 3000, () => {
+    console.log(`Server is running on port ${process.env.PORT || 3000}`);
+  });
+}).catch(err => {
+  console.error('Error syncing database:', err);
 });

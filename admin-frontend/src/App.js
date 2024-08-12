@@ -25,6 +25,7 @@ import MemberPassword from './settings/MemberPassword';
 import Reject from './Withdraw/Reject';
 import Request from './Withdraw/Request';
 import WithdrawHistory from './Withdraw/WithdrawHistory';
+import Wallet from './Wallet';  // Import Wallet component
 
 function App() {
   const isLoggedIn = true; // Replace with your actual login state logic
@@ -58,6 +59,7 @@ function App() {
         <Route path="/rejected-withdrawals" element={<Reject />} />
         <Route path="/withdraw-request" element={<Request />} />
         <Route path="/withdraw-history" element={<WithdrawHistory />} />
+        <Route path="/wallet-changes" element={<Wallet />} /> {/* Add this line */}
       </Routes>
     </Router>
   );

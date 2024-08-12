@@ -60,7 +60,7 @@ const Dashboard = () => {
             </ul>
           </li>
           <li className="dropdown">
-            <Link to="/Wallet"><i className="fas fa-users"></i> Wallet Address or Change Request <i className="fas fa-caret-down"></i></Link>
+            <Link to="/wallet-changes"><i className="fas fa-users"></i> Wallet Address or Change Request <i className="fas fa-caret-down"></i></Link>
           </li>
           <li className="dropdown">
             <a href="#" onClick={() => handleDropdownClick('fundManagement')}>
